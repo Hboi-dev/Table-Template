@@ -1,0 +1,1 @@
+Tables are ways of classifying things in a coordinate manner. Meanwhile, it's possible to create tables in a webpage or form page. However, this can be achieved using HTML table tags.This template consist of HTML tags to create different form of table, also with some CSS styling too. 

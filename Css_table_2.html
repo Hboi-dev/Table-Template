@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #table1{
+      width:450px;
+    }
+    #table1,.th1,.td1{
+      border:1px solid black;
+      border-collapse:collapse;
+      text-align:center;
+      height:50px;
+    }
+    .td1{
+      vertical-align:top;
+      padding:10px;
+    }
+    .td1:hover{
+      background-color:silver;
+    }
+    #thead1{
+      background-color:lightcoral;
+      color:white;
+    }
+    #table2{
+      width:450px;
+    }
+    #table2, .th2, .td2{
+      border-bottom:1px solid black;
+      border-collapse:collapse;
+      text-align:center;
+      height:50px;
+    }
+    .td2{
+      vertical-align:top;
+      padding:10px;
+    }
+    #thead2{
+      background-color:cornflowerblue;
+      color:white;
+    }
+    #tbody2 .tr2:hover{
+      background-color:darkgrey;
+    }
+  </style>
+</head>
+<body>
+  <table id="table1">
+    <thead id="thead1">
+      <tr id="tr1">
+        <th class="th1">S.No</th>
+        <th class="th1">Fist Name</th>
+        <th class="th1">Last Name</th>
+        <th class="th1">DOB</th>
+      </tr>
+    </thead>
+    <tbody id="tbody1">
+      <tr>
+        <td class="td1">1</td>
+        <td class="td1">Happy</td>
+        <td class="td1">Omokaro</td>
+        <td class="td1">1994</td>
+      </tr>
+      <tr>
+        <td class="td1">2</td>
+        <td class="td1">Jane</td>
+        <td class="td1">Osa</td>
+        <td class="td1">1995</td>
+      </tr>
+      <tr>
+        <td class="td1">3</td>
+        <td class="td1">Jame</td>
+        <td class="td1">Dan</td>
+        <td class="td1">1993</td>
+      </tr>
+      <tr>
+        <td class="td1">4</td>
+        <td class="td1">Micheal</td>
+        <td class="td1">Osagie</td>
+        <td class="td1">1996</td>
+      </tr>
+    </tbody>
+  </table><br>
+  <table id="table2">
+    <thead id="thead2">
+      <tr id="tr1">
+        <th class="th2">S.No</th>
+        <th class="th2">Fist Name</th>
+        <th class="th2">Last Name</th>
+        <th class="th2">DOB</th>
+      </tr>
+    </thead>
+    <tbody id="tbody2">
+      <tr class="tr2">
+        <td class="td2">1</td>
+        <td class="td2">Happy</td>
+        <td class="td2">Omokaro</td>
+        <td class="td2">1994</td>
+      </tr>
+      <tr class="tr2">
+        <td class="td2">2</td>
+        <td class="td2">Jane</td>
+        <td class="td2">Osa</td>
+        <td class="td2">1995</td>
+      </tr>
+      <tr class="tr2">
+        <td class="td2">3</td>
+        <td class="td2">Jame</td>
+        <td class="td2">Dan</td>
+        <td class="td2">1993</td>
+      </tr>
+      <tr class="tr2">
+        <td class="td2">4</td>
+        <td class="td2">Micheal</td>
+        <td class="td2">Osagie</td>
+        <td class="td2">1996</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
